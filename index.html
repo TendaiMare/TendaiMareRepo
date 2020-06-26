@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tendai's World</title>
+</head>
+<body>
+    <header class="main-header">
+        <div class="backdrop"></div>
+        <section class="main-header-section">
+            <div class="main-header-div-brand">
+                <button class="toggle-button">
+                    <span class="toggle-button__bar"></span>
+                    <span class="toggle-button__bar"></span>
+                    <span class="toggle-button__bar"></span>
+                </button>
+                
+                <a href="index.html" alt="">Home</a>
+            </div>
+            <nav class="main-nav">
+                <ul class="main-nav-item">                    
+                    <li class="main-nav-items"><a class="nav-link" href="#portfolio" alt="My portfolio of the projects I have done">Portfolio</a></li>
+                    <li class="main-nav-items"><a class="nav-link" href="#languages" alt="The programming languages I work with">Languages</a></li>
+                    <li class="main-nav-items"><a class="nav-link" href="#contact" alt="How to contact me">Contact Me</a></li>                
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <nav class="mobile-nav">
+        <ul class="mobile-nav__items">
+            <li class="mobile-nav__item">
+                <a class="mobile-nav-link" href="">Packages</a>
+            </li>
+            <li class="mobile-nav__item">
+                <a class="mobile-nav-link" href="">Customers</a>
+            </li>
+            <li class="mobile-nav__item">
+                <a class="mobile-nav-link" href="">Start Hosting</a>
+            </li>
+        </ul>
+    </nav>
+    <section class="site-image">
+        <img src="tendai.jpg" alt="Header">
+        <h2 class="site-title">Tendai Mare</h2>
+        <h3 class="site-thestufficode">Desktop and Web Applications</h3>
+    </section>
+    <section id="portfolio">
+        <h2 class="portfolio-title">Portfolio Projects</h2>
+        <div class="portfolio-container">            
+            <div class="portfolio-project portfolio1">
+                <img src="bakery.png" alt="Honey Castella">
+                <h3>Aunty Patty's Bakery</h3>
+                <p>A bakery website to showcase Aunty Patty's products</p>
+            </div>
+            <div class="portfolio-project portfolio2">
+                <img src="repair.png" alt="Product">
+                <h3>Rickys Repair Shop</h3>
+                <p>Putting Ricky's repair shop on the web</p>
+            </div>
+            <div class="portfolio-project portfolio3">
+                <img src="product1.jpg" alt="Meeting">
+                <h3>Vortex Bridal Botique</h3>
+                <p>Number 1 bridal shop in the world, you can take that to the bank</p>
+            </div>
+        </div>
+    </section>
+    <section id="languages">
+        <h2 class="languages-title">Programming Languages</h2>
+        <div class="languages-container">      
+            <div class="programming-language language1">
+                <img src="csharp10.png" alt="">
+                <h3>C#</h3>            
+            </div>
+            <div class="programming-language language2">
+                <img src="js1.png" alt="">
+                <h3>JavaScript</h3>            
+            </div>
+            <div class="programming-language language3">
+                <img src="php3.png" alt="">
+                <h3>PHP</h3>            
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h2 class="about-title">About</h2>
+        <div class="about-container">
+            <p>
+                My name is Tendai Mare. I am a software developer 
+                living in South Africa.   
+            </p>
+            <p>
+                For a long time I have been developing desktop 
+                applications with vb.net , c# and vb6 with MS SQL,
+                 MySQL Server and MS Access databases.
+                Currently I am more focused on web development with HTML, 
+                CSS, Javascript, PHP, React and Node. I aspire to develop web 
+                applications in a professional setting. 
+            </p>
+        </div>        
+    </section>
+    <form>
+    <section id="contact">
+        <h3 class="contact-title">Contact Me</h3>
+        <div class="contact-input">
+            <label for="fullname">Full Name</label>
+            <input type="text" name="fullname" placeholder="Full Name" />
+            <label for="phonenumber">Phone Number</label>
+            <input type="text" name="phonenumber" placeholder="Phone Number" />
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="Email" />
+            <label for="message">Message</label>
+            <textarea name="message" placeholder="Message"></textarea>
+            <button>Send</button>
+        </div>        
+        
+    </section>
+    </form>
+    <section class="social-media">
+        <h1 class="social-media-title">Catch me online</h1>
+        <div class="social-media-container">
+            <div class="social-media-wrap">
+                <a class="social-media-link" href="www.facebook.com/tendaimare">
+                    <img class="social-media-image" src="facebook.png" alt="Facebook" />
+                </a>
+            </div>
+            <div class="social-media-wrap">
+                <a class="social-media-link" href="www.twitter.com/tendaimare">
+                    <img class="social-media-image" src="Twitter.png" alt="Twitter" />
+                </a>
+            </div>
+            <div class="social-media-wrap">
+                <a class="social-media-link" href="www.github.com/tendaimare">
+                    <img class="social-media-image" src="github.png" alt="Github" />
+                </a>
+            </div>
+            <div class="social-media-wrap">
+                <a class="social-media-link" href="www.linkedin.com/tendaimare">
+                    <img class="social-media-image" src="LinkedIn.png" alt="LinkedIn" />
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer>     
+        <p class="footer-heading">Site designed and developed by Tendai Mare</p>  
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

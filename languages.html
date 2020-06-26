@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        .container div {
+            height:150px;
+            border:1px solid red;
+            margin-bottom:10px;
+        }
+        .container {
+            padding:5px;
+            position:relative;
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width:500px;
+            border: 1px solid grey;
+        }
+        #one,#two {
+            width:220px;
+        }
+        #three{
+            width:500px;
+        }
+        @media(max-width:600px){
+            #one {
+                order:1;
+                width:500px;
+            }
+            #two {
+                order:2;
+                width:500px;
+            }
+            #three {
+                order:3;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="one">Content1</div>
+        <div id="two">Content2</div>
+        <div id="three">Content3</div>
+    </div>
+</body>
+</html>
